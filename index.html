@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - BTD6</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="/src/imagens/btd6-logo.png" alt="Logo btd6">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="boomerang-monkey" data-name="Macaco Boomerang" data-description="O Macaco Boomerang é uma torre de classe primária que foi lançada no lançamento inicial de Bloons TD 6.">
+                    <img src="./src/imagens/card-boomerang-monkey.jpg" alt="Macaco Boomerang">
+                </li>
+
+                <li class="personagem" id="dart-monkey" data-name="Macaco Dardo" data-description="O Macaco Dardo é uma torre da série Bloons TD. É uma das 5 torres originais.">
+                    <img src="./src/imagens/card-dart-monkey.jpg" alt="Macaco Dardo">
+                </li>
+                
+                <li class="personagem" id="engineer-monkey" data-name="Macaco Engenheiro" data-description="O Macaco Engenheiro é uma torre da classe Support adicionada na versão 12.0 do Bloons TD 6 em 17 de setembro de 2019.">
+                    <img src="./src/imagens/card-engineer-monkey.jpg" alt="Macaco Engenheiro">
+                </li>
+                
+                <li class="personagem" id="glue-gunner" data-name="Cospe Cola" data-description="O Cospe Cola é uma torre de classe primária em Bloons TD 6 que atira cola que retarda Bloons.">
+                    <img src="./src/imagens/card-glue-gunner.jpg" alt="Macaco Cospe Cola">
+                </li>
+                
+                <li class="personagem" id="ice-monkey" data-name="Macaco de Gelo" data-description="O Macaco de Gelo é uma torre de classe primária em Bloons TD 6, seu ataque pode congelar e estourar bloons.">
+                    <img src="./src/imagens/card-ice-monkey.jpg" alt="Macaco de Gelo">
+                </li>
+                
+                <li class="personagem" id="ninja-monkey" data-name="Macaco Ninja" data-description="O Macaco Ninja é um macaco que fez sua primeira aparição em Bloons TD 5, seu propósito como torre base é ter detecção de camuflagem padrão, tornando-o útil contra as primeiras rodadas de camuflagem.">
+                    <img src="./src/imagens/card-ninja-monkey.jpg" alt="Macaco Ninja">
+                </li>
+                
+                <li class="personagem" id="sniper-monkey" data-name="Macaco Sniper" data-description="O Macaco Sniper é uma torre da série Bloons TD que fez sua estreia em Bloons TD 5. O Sniper Monkey tem alcance infinito, mas requer visão clara.">
+                    <img src="./src/imagens/card-sniper-monkey.jpg" alt="Macaco Sniper">
+                </li>
+
+                <li class="personagem" id="wizard-monkey" data-name="Macaco Mago" data-description="O Macaco Mago é uma torre de classe mágica que foi lançada no lançamento inicial de Bloons TD 6.">
+                    <img src="./src/imagens/card-wizard-monkey.jpg" alt="Macaco Mago">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-boomerang-monkey.png" alt="Personagem Selecionado">
+             
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Macaco Boomerang</h2>
+                <p class="descricao-personagem" id="descricao-personagem">O Macaco Boomerang é uma torre de classe primária que foi lançada no lançamento inicial de Bloons TD 6.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
